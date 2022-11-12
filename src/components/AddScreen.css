@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.choose-screen {
+    width: 297px;
+    background-color: #343434;
+    text-align: center;
+}
+
+.top-title {
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 35px;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 25px;
+}
+
+.addnew-button {
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    margin: 5px 20px 15px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.addnew-button:hover {
+    background: #aeaeae;
+    color: #343434;
+}
+
+.generate {
+    background: #4e4d71;
+    color: #ffffff;
+}
+
+.create {
+    background: #35ad65;
+    color: #343434;
+}
+
+.choose-screen-buffer {
+    width: 297px;
+    height: 131px;
+}
+
+.create-screen {
+    width: 297px;
+    background: #343434;
+}
+
+.title-input {
+    border: none;
+    border-bottom: 1px solid #505050;
+    background: #343434;
+    color:#d9d9d9;
+    font-size: 15px;
+    margin: 15px;
+    padding: 3px;
+    transition: 0.5s ease;
+    font-weight: 700;
+    width: 215px;
+}
+
+.title-input:focus {
+    /* background: #545864; */
+    border-bottom: 1px solid #db3939;
+    outline: none;
+}
+
+.create-textarea {
+    resize: none;
+    width: 215px;
+    height: 195px;
+    border-radius: 10px;
+    background: #343434;
+    font-size: 12px;
+    border-color: #505050;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+
+.create-textarea:focus {
+    outline: none;
+    border-color: #db3939;
+}
+
+.add-new-button {
+    padding: 8px 15px;
+    margin: 5px 0px 15px 175px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    background: #db3939;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.change-mode {
+    font-size: 15px;
+    color: #888888;
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.create-screen-buffer {
+    width: 297px;
+    height: 35.57px;
+}
+
+.generate-screen {
+    width: 297px;
+    background: #343434;
+}
+
+.sub-heading {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.number-input {
+    width: 55px;
+    background-color: #343434;
+    border-radius: 10px;
+    border: 1px solid #505050;
+    transition: 0.3s ease;
+    font-size: 15px;
+    padding: 7px ;
+    color: #d9d9d9;
+    margin-left: 35px;
+}
+
+.number-input:focus {
+    outline: none;
+    border: 1px solid #db3939;
+}
+
+.generate-type {
+    font-size: 15px;
+    background-color: #db3939;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    margin: 10px 30px;
+    padding-right: 15px;
+    color: #ffffff;
+}
+
+.radio-pair {
+    margin: 12px 0px;
+}
+
+.case-label {
+    font-size: 12px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    margin: -3px 15px; /* Adjust later if need be */
+    background-color: #505050;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    cursor: pointer;}
+
+input[type="radio"]:checked {
+    background-color: #db3939;
+}
+
+.case-panel {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.generate-buffer {
+    width: 297px;
+    height: 41.57px;
+}
+

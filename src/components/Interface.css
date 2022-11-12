@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.interface {
+    width: 297px;
+}
+
+.top-bar {
+    padding: 20px 0px;
+    width: 297px;
+    background-color: #343434;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.top-logo {
+    max-width: 35px;
+}
+
+.button-menu {
+    display: table;
+    justify-content: center;
+    width: 297px;
+    background-color: #343434;
+    margin-top: 0px;
+}
+
+.icon {
+    margin: -5px 15px;
+    cursor: pointer;
+    max-width: 18px;
+    transition: ease 0.3s;
+}
+
+.icon:hover {
+    opacity: 30%;
+}
+
+.add-button {
+    background-image: linear-gradient(#db3939, #db3939);
+    border-radius: 15px;
+    padding: 10px 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 15px 30px;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-image: linear-gradient(to right, #db3939, #921ea5);
+    color: #343434;
+}
+
+.back-arrow {
+    max-width: 11px;
+    position: absolute;
+    left: 30px;
+    top: 33px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.back-arrow:hover {
+    opacity: 20%;
+}
