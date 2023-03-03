@@ -1,6 +1,8 @@
+/*global chrome*/
 import React from "react";
 import "./AddScreen.css";
 import JSONData from "../data.json";
+
 
 class AddScreen extends React.Component {
     constructor(props) {
@@ -27,8 +29,12 @@ class AddScreen extends React.Component {
     }
 
     handleAddCreate() {
-        JSONData["chunks"].push({"title": this.state.title, "text": this.state.text});
-
+        const title = this.state.title;
+        const text = this.state.text;
+        JSONData["chunks"].push({"title": title, "text": text});
+        chrome.storage.sync.set({title: text}, function() {
+            console.log(`Passed value of ${title} with text ${text}`);
+        });
         this.props.returnHomeHandler();
     }
 
